@@ -19,6 +19,12 @@ for (var i=1; i <= 100; i++){
  else if (i % 3 == 0 && i % 5 == 0){
    console.log('Fizz' +' ' + 'Buzz');
  }
+ else if (i % 3 == 0 && i % 15 == 0){
+   console.log('Fizz' + ' ' + 'FizzBuzz');
+ }
+ else if (i % 5 == 0 && i% 15 == 0) {
+   console.log('Buzz' + '' + 'FizzBuzz');
+ }
  else{
    console.log(i);
  }
