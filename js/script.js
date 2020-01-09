@@ -15,7 +15,7 @@ for (var i=1; i <= 100; i++){
  }
  else{
    console.log(i);
-   // document.getElementById('altri').innerHTML += ('<li>' + i + '</li>');
+   document.getElementById('altri').innerHTML += ('<li>' + i + '</li>');
  }
 }
 
