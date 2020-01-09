@@ -1,5 +1,19 @@
 // alert ('ciao');
-
+for (var i=1; i <= 100; i++){
+ // console.log(i);
+ if (i % 15 == 0){
+   console.log('FizzBuzz');
+ }
+ if (i % 5 ==0 && i%15 != 0){
+   console.log('Buzz');
+ }
+ if (i % 3 ==0 && i%15 != 0){
+   console.log('Fizz');
+ }
+ else{
+   console.log(i);
+ }
+}
 
 // for (var i=1; i <= 100; i++){
 //  // console.log(i);
@@ -60,18 +74,3 @@
 //   }
 //   i++;
 // }
-for (var i=1; i <= 100; i++){
- // console.log(i);
- if (i % 15 == 0){
-   console.log('FizzBuzz');
- }
- if (i % 5 ==0 && i%15 != 0){
-   console.log('Buzz');
- }
- if (i % 3 ==0 && i%15 != 0){
-   console.log('Fizz');
- }
- else{
-   console.log(i);
- }
-}
